@@ -58,7 +58,7 @@ The ```fn init``` command also generated a Maven ```pom.xml``` file that contain
 
 If you don't want to use Maven, you can use Gradle or any other build system, and I will show later how you can do this with slightly modified build instructions.
 
-###Running a Function
+### Running a Function
 
 At this point, let's execute the function that was auto-generated. There are a number of options:
 
@@ -206,8 +206,8 @@ In both these options, the function wasn't directly invoked by the CLI tool. Rat
 
 In a real production environment, the Fn server will also be the entity that triggers the function invocations. But as you could see, the result of invoking a function directly (via fn run) or via the Fn server produces the same output, and that makes it very convenient to develop these functions.
 
-##References
+## References
 [An Introduction to the Fn Project](https://developer.oracle.com/java/fn-project-introduction)
 
-##Credits
+## Credits
 All credits goes to Johan Vos, author of original blog article from which this README has been extracted and fixed.
